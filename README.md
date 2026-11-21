@@ -21,7 +21,8 @@ File name	Purpose
 logic_gates.v	Logic-gate RTL
 logic_gates_tb.v	All input combinations and VCD generation
  # Verilog  Program
-```module basic_gates (
+```
+module basic_gates (
     input  wire a,
     input  wire b,
     output wire y_and,
@@ -34,6 +35,7 @@ logic_gates_tb.v	All input combinations and VCD generation
     assign y_not = ~a;      // NOT gate (inverter)
 
 endmodule
+```
 # **Test Bench Program**
 ```
 module tb2;
